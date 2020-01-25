@@ -1,0 +1,82 @@
+@import "../helpers/_mixins.scss";
+@import "../helpers/_variables.scss";
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-primary;
+  font-weight: $font-normal;
+  font-size: $font-size;
+  color: $font-color;
+  height: 100%;
+  width: 100%;
+  background: $body_background;
+
+  @media only screen and (min-width: 991px) {}
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+
+  @media only screen and (max-width: 991px) {
+    height: auto;
+  }
+}
+
+input,
+a,
+button,
+.btn,
+.form-control {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+  &:focus,
+  &:hover,
+  &:active {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    &:focus,
+    &:hover,
+    &:active {
+      outline: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+  //Headers have different font
+  font-family: $font-header;
+  font-weight: $font-light;
+}
