@@ -120,7 +120,7 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400|Source+Sans+Pro:300,400,600&display=swap'
+        href: 'https://fonts.googleapis.com/css?family=Quicksand:400,500|Raleway:400,500&display=swap'
       },
       {
         rel: 'apple-touch-icon',
@@ -158,7 +158,7 @@ export default {
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#825E3A',
+    color: '#6EEB83',
     height: '4px'
   },
   /*

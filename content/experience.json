@@ -1,0 +1,34 @@
+{
+    "actovia": {
+        "name": "Actovia",
+        "timeframe": "Aug 2016 - Present",
+        "position": "Lead Front End Developer",
+        "bullets": [
+            "Lead the UI/UX redesign and development of the Actovia Application. Currently maintaining and developing new features for the application.",
+            "Developed and now improving an internal custom CRM to work specifically with the Actovia Application.",
+            "Working closely with Backend and SQL developers using JIRA and pushed for Agile methods.",
+            "Streamlined workflow with Task Runners (Gulp & Webpack), SCSS, Babel and new ES JS standards with documentation for the team."
+        ]
+    },
+    "tradetrendy": {
+        "name": "Trade Trendy",
+        "timeframe": "Sep 2015 - Dec 2016",
+        "position": "Co-Founder & Technical Lead",
+        "bullets": [
+            "Lead the development of Trade Trendy to revolutionize the online clothing market. Trade Trendy was an online marketplace to trade used clothing, shoes, and accessories.",
+            "Developed the application using Ruby on Rails framework with Bootstrap on the front end.",
+            "Produced a scalable architecture for expanding the business as user base grew using AWS.",
+            "Conducted weekly sprint goals with another developer to meet deadlines."
+        ]
+    },
+    "zinnia": {
+        "name": "Zinnia Development",
+        "timeframe": "Jul 2014 - Present",
+        "position": "Founder & Lead Developer",
+        "bullets": [
+            "Incorporated Zinnia Development LLC for my hobby on creating websites for small businesses officially in 2019.",
+            "Started developing websites for businesses in 2014.",
+            "Designed and developed over two dozen small business websites since ineption."
+        ]
+    }
+}

@@ -1,26 +1,28 @@
 /*Import Fonts*/
-@import url('https://fonts.googleapis.com/css?family==Montserrat:300,400|Source+Sans+Pro:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500|Raleway:400,500&display=swap');
 
-$font-color: #333333 !default;
-$font-color-dark: #111111 !default;
-$font-size: 16px;
-$font-size-larger: 20px;
-$font-primary: 'Source Sans Pro', sans-serif;
-$font-header: 'Montserrat', sans-serif;
+$font-size: 15pt;
+$font-size-larger: 20pt;
+$font-size-smaller: 12pt;
+$font-primary: 'Quicksand', sans-serif;
+$font-header: 'Raleway', sans-serif;
 $font-light: 300;
 $font-normal: 400;
 $font-bold: 600;
 
-$font-color: #fff;
-$font-color-dark: #333;
+$font-color: #333;
+$font-color-dark: #111;
 
-$primary: #6EEB83;
-$secondary: #1BE7FF;
-$orange: #FF5714;
-$yellow: #E4FF1A;
-$marigold: #E8AA14;
+$primary: #2c7873;
+$secondary: #52de97;
+$orange: #ffba5a;
+
+@media (prefers-color-scheme: dark) { 
+
+}
 
 
-$body_background: #efefef;
-
+$body_background: #f0f0f0;
 $nav-height: 90px;
+
+$body_max_width: 800px;

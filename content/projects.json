@@ -1,0 +1,43 @@
+{
+  "bbzl": {
+    "name": "Bamboozle",
+    "link": {
+        "url": "https://bbzl.io",
+        "alt": "Link to Bamboozle"
+    },
+    "timeframe": "Dec 2018 - Present",
+    "position": "Creator",
+    "bullets": [
+      "Bamboozle is an online multiplayer game based on a board game.",
+      "Used Node.js running Express.js for views and routing with Socket.io for real time interaction.",
+      "Running on a DO Ubuntu droplet with Nginx as reverse proxy and PM2 for management.",
+      "As of 2020, there are around 100 players around the world playing daily."
+    ]
+  },
+  "sniper": {
+    "name": "Course Sniper",
+    "link": {
+        "url": "https://github.com/v/sniper",
+        "alt": "Link to Rutgers Course Sniper"
+    },
+    "timeframe": "Dec 2015",
+    "position": "Front End Developer",
+    "bullets": [
+      "Designed and developed the front end of the web application that is used by over 7,000 Rutgers students every semester, assisting them with class registration."
+    ]
+  },
+  "rudirect": {
+    "name": "RU Direct",
+    "link": {
+        "url": "https://github.com/churichard/ru-direct",
+        "alt": "Link to RU Direct"
+    },
+    "timeframe": "Apr 2015",
+    "position": "Front End Developer",
+    "bullets": [
+      "Developed an android app for the bus system at Rutgers University during HackRU 2015.",
+      "Continued to maintain the project resulting in over 10,000 Rutgers students using it daily.",
+      "As of 2019, Rutgers changed their services to TransLoc, resulting in the shutdown of this app."
+    ]
+  }
+}
