@@ -45,21 +45,21 @@
       <section class="grid">
         <nav>
           <a href="//github.com/jpaik" target="_blank" rel="noopener">
-            <img src="/github-square-brands.svg" class="large" />
+            <img src="/github-square-brands.svg" class="large" alt="Github Icon" />
             <br />
             Github
           </a>
         </nav>
         <nav>
           <a href="//www.linkedin.com/in/jamespaik" target="_blank" rel="noopener">
-            <img src="/linkedin-brands.svg" class="large" />
+            <img src="/linkedin-brands.svg" class="large" alt="LinkedIn Icon" />
             <br />
             LinkedIn
           </a>
         </nav>
         <nav>
           <a href="mailto:james@jpaik.me" target="_blank" rel="noopener">
-            <img src="/envelope-square-solid.svg" class="large" />
+            <img src="/envelope-square-solid.svg" class="large" alt="Email Icon" />
             <br />
             Email
           </a>
