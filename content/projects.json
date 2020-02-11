@@ -14,6 +14,20 @@
       "As of 2020, there are around 100 players around the world playing daily."
     ]
   },
+  "gpa": {
+    "name": "GPA For Me",
+    "link": {
+        "url": "https://gpafor.me",
+        "alt": "Link to GPA Calculator"
+    },
+    "timeframe": "Apr 2016",
+    "position": "Developer",
+    "bullets": [
+      "To explore AngularJS, I created a GPA Calculator using Angular2.",
+      "It calculates GPA in real time with both semester and cumulative GPA scores. Users can choose from the three different GPA scales as well.",
+      "Every season during the end of the semester, there are over 2,000 students that use this to calculate their GPA and hope for the best."
+    ]
+  },
   "sniper": {
     "name": "Course Sniper",
     "link": {
@@ -23,7 +37,8 @@
     "timeframe": "Dec 2015",
     "position": "Front End Developer",
     "bullets": [
-      "Designed and developed the front end of the web application that is used by over 7,000 Rutgers students every semester, assisting them with class registration."
+      "Designed and developed the front end of the web application that is used by over 7,000 Rutgers students every semester, assisting them with class registration.",
+      "Rewrote the frontend to be responsive and user friendly"
     ]
   },
   "rudirect": {
