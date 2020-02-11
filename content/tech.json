@@ -1,0 +1,32 @@
+{
+  "1": {
+    "list": [
+      "JavaScript",
+      "Java",
+      "Python",
+      "PHP",
+      "C#",
+      "HTML5 + CSS"
+    ]
+  },
+  "2": {
+    "list": [
+      "Node.js",
+      "Vue.js",
+      "AngularJS",
+      "Laravel",
+      "Django & Flask",
+      "ASP.NET"
+    ]
+  },
+  "3": {
+    "list": [
+      "Git & SVN",
+      "Jira",
+      "Devops",
+      "Nginx & Apache",
+      "Cloud Servers",
+      "Linux Systems"
+    ]
+  }
+}
