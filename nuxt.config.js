@@ -1,6 +1,7 @@
 const site_title = 'James Paik | Full Stack Developer & Entrepreneur';
 const site_description = 'Currently the Lead Front End Developer at Actovia. Full Stack Developer by trade.';
 const site_url = 'https://jpaik.me';
+const site_keywords = 'James Paik, front end developer, full stack developer, New Jersey, Web Developer, frontend developer, lead developer, senior developer, software developer';
 
 export default {
   mode: 'universal',
@@ -29,6 +30,10 @@ export default {
       {
         name: 'theme-color',
         content: '#ffffff'
+      },
+      {
+        name: 'keywords',
+        content: site_keywords
       },
       /**
        * TWITTER SEO
@@ -158,7 +163,7 @@ export default {
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#6EEB83',
+    color: '#2c7873',
     height: '4px'
   },
   /*
@@ -180,7 +185,6 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxtjs/axios', // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/pwa',
-    'vue-scrollto/nuxt',
     '@nuxtjs/netlify-files',
     '@nuxtjs/sitemap',
     ['@nuxtjs/google-analytics', {
