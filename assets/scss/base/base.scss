@@ -57,12 +57,14 @@ button,
 
 a {
   color: $primary;
+  color: var(--color-primary);
   text-decoration: none;
   @include transition(color ease .3s);
 
   &:focus,
   &:hover {
     color: $secondary;
+    color: var(--color-secondary);
     @include transition(color ease .3s);
 
   }
@@ -71,17 +73,21 @@ a {
 h1,
 h2,
 h3,
-.h1,
-.h2,
-.h3 {
+h4 {
   font-family: $font-header;
+}
+
+h1,
+h2 {
+  color: $primary-dark;
+  color: var(--color-primary-dark);
 }
 
 .center {
   text-align: center;
 }
 
-main {
+main, header {
   max-width: $body_max_width;
   margin: 0 auto;
   position: relative;
@@ -92,18 +98,54 @@ h1 {
     margin: 1em 0 0rem;
     font-size: 3em;
 
-    @media only screen and (min-width: 880px) {
+    @media only screen and (min-width: 930px) {
       margin: 2em 0 0 -2.5rem;
     }
 
     +p {
-      margin: 0 0 1em 0em;
+      margin: 0 0 1em 0;
+      font-size: 1.25em;
     }
   }
 }
 
 h2 {
   margin-top: 2em;
+
+  .name ~ & {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    
+    &::before, 
+    &::after {
+      content: '';
+      overflow: hidden;
+      flex: 1;
+      background-image: linear-gradient(to right, $primary 20%, rgba(255, 255, 255, 0) 0%);
+      background-position: 0 100%;
+      background-size: 0.4em 2px;
+      background-repeat: repeat-x;
+    }
+
+    &::after {
+      margin: 0 0 .5em .4em;
+    }
+
+    &::before {
+      margin: 0 0.3em .5em 0;
+      @media only screen and (max-width: 880px) {
+        content: none;
+      }
+    }
+  }
+}
+
+h3 {
+  > nav {
+    margin-left: 0.3rem;
+    line-height: 1em;
+  }
 }
 
 h1~ {
@@ -123,9 +165,9 @@ ul {
   padding-inline-start: 1.5em;
   margin-top: 0;
 
-   @media only screen and (max-width: 880px) {
-     margin-bottom: 0;
-   }
+  @media only screen and (max-width: 880px) {
+    margin-bottom: 0;
+  }
 
   >li {
     margin: 0 0 .25em;
@@ -134,21 +176,49 @@ ul {
 
 section {
   font-size: $font-size-smaller;
-  margin: 0 0 2.5em;
+  margin: 0 0 1.5em;
+  >p {
+    margin: .25em 0;
+  }
+}
 
-  >h3 {
-    margin-bottom: 0;
+hgroup { 
+  display: flex;
+  flex: 1;
+  position: relative;
+  align-items: center;
 
-    >i {
-      font-size: .8em;
-      font-weight: $font-normal;
-      line-height: 1.5em;
-      float: right;
+  > * {
+    margin: 0;
+  }
+
+  h3 {
+    flex-wrap: nowrap;
+    flex: 1;
+    display: flex;
+
+    &::after {
+      content: '';
+      width: 100%;
+      display: flex;
+      overflow: hidden;
+      flex: 1;
+      margin: 0 0.3rem 0.5rem .5rem;
+      background-image: linear-gradient(to right, rgba($font-color, .8) 10%, rgba(255, 255, 255, 0) 0%);
+      background-position: 0 100%;
+      background-size: 0.5em 1px;
+      background-repeat: repeat-x;
     }
   }
 
-  >p {
-    margin: .25em 0;
+  h4 {    
+    flex: initial;
+    display: inline-block;
+    font-size: .9em;
+    font-weight: $font-normal;
+    line-height: 1.5em;
+    text-align: right;
+    flex-direction: column;
   }
 }
 
@@ -159,9 +229,10 @@ nav {
     text-align: center;
   }
 
-  > a {
+  >a {
     vertical-align: middle;
   }
+
   img {
     height: .85em;
     @include transition(margin ease .3s);
@@ -172,12 +243,14 @@ nav {
 
     .grid & {
       &:hover {
-        margin-top: -2px;
+        margin-top: -3px;
+        margin-bottom: 3px;
         @include transition(margin ease .3s);
       }
     }
   }
 }
+
 .grid {
   display: grid;
   grid-gap: 10px;
@@ -185,7 +258,7 @@ nav {
 }
 
 footer {
-  margin: 3em 0 2em;
+  margin: 5em 0 2em;
   padding: 1em 0;
   text-align: center;
   font-size: $font-size-smaller;

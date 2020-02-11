@@ -14,6 +14,7 @@ $font-color: #333;
 $font-color-dark: #111;
 
 $primary: #2c7873;
+$primary-dark: darken($primary, 10%);
 $secondary: #52de97;
 $orange: #ffba5a;
 
@@ -26,3 +27,10 @@ $body_background: #f0f0f0;
 $nav-height: 90px;
 
 $body_max_width: 800px;
+
+:root {
+    --color-primary: #{$primary};
+    --color-primary-dark: #{$primary-dark};
+    --color-secondary: #{$secondary};
+    --color-orange: #{$orange};
+}
