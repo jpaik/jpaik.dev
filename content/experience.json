@@ -1,6 +1,10 @@
 {
     "actovia": {
         "name": "Actovia",
+        "link": {
+            "url": "//actoviacmi.com",
+            "alt": "Link to Actovia"
+        },
         "timeframe": "Aug 2016 - Present",
         "position": "Lead Front End Developer",
         "bullets": [
