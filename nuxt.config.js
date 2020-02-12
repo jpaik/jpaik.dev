@@ -124,10 +124,6 @@ export default {
         href: '/favicon.ico'
       },
       {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Quicksand:400,500|Raleway:400,500&display=swap'
-      },
-      {
         rel: 'apple-touch-icon',
         sizes: '180x180',
         href: '/apple-touch-icon.png'
@@ -153,10 +149,7 @@ export default {
         href: '/safari-pinned-tab.svg',
         color: '#5bbad5'
       },
-    ],
-    script: [{
-      src: 'https://kit.fontawesome.com/c90f0a0f3d.js'
-    }]
+    ]
   },
 
   /*
