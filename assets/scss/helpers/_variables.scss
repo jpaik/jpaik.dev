@@ -4,8 +4,10 @@
 $font-size: 15pt;
 $font-size-larger: 20pt;
 $font-size-smaller: 12pt;
-$font-primary: 'Quicksand', sans-serif;
-$font-header: 'Raleway', sans-serif;
+$font-primary: 'Quicksand',
+sans-serif;
+$font-header: 'Raleway',
+sans-serif;
 $font-light: 300;
 $font-normal: 400;
 $font-bold: 600;
@@ -18,19 +20,29 @@ $primary-dark: darken($primary, 10%);
 $secondary: #52de97;
 $orange: #ffba5a;
 
-@media (prefers-color-scheme: dark) { 
-
-}
-
-
 $body_background: #f0f0f0;
 $nav-height: 90px;
 
 $body_max_width: 800px;
 
 :root {
+    --font-color: #{$font-color};
+    --font-color-dark: #{$font-color-dark};
+    --body: #{$body_background};
     --color-primary: #{$primary};
     --color-primary-dark: #{$primary-dark};
     --color-secondary: #{$secondary};
     --color-orange: #{$orange};
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --font-color: #eee;
+        --font-color-dark: #ddd;
+        --body: #222;
+        --color-primary: #{$secondary};
+        --color-primary-dark: #{$secondary};
+        --color-secondary: #{$secondary};
+        --color-orange: #{$orange};
+    }
 }
