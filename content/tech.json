@@ -1,32 +1,29 @@
 {
   "1": {
     "list": [
+      "HTML5",
+      "SCSS",
       "JavaScript",
-      "Java",
-      "Python",
-      "PHP",
-      "C#",
-      "HTML5 + CSS"
+      "Vue.js",
+      "Angular"
     ]
   },
   "2": {
     "list": [
       "Node.js",
-      "Vue.js",
-      "AngularJS",
-      "Laravel",
-      "Django & Flask",
-      "ASP.NET"
+      "Nuxt.js",
+      "C#/ASP.NET",
+      "PHP/Laravel",
+      "Python/Flask"
     ]
   },
   "3": {
     "list": [
-      "Git & SVN",
+      "VS Code",
+      "Git",
       "Jira",
-      "Devops",
-      "Nginx & Apache",
-      "Cloud Servers",
-      "Linux Systems"
+      "Linux/Ubuntu",
+      "Nginx/Apache"
     ]
   }
 }

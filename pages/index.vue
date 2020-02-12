@@ -34,7 +34,7 @@
       <h2>Projects</h2>
       <Section v-for="p in projects" :key="p.name" :data="p"></Section>
 
-      <h2>Tech &amp; Tools</h2>
+      <h2>Favorite Tech</h2>
       <section class="grid">
         <ul v-for="t in tech" :key="t.id">
           <li v-for="i in t.list" :key="i.id">{{i}}</li>
