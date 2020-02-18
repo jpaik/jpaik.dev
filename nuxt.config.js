@@ -149,6 +149,16 @@ export default {
         href: '/safari-pinned-tab.svg',
         color: '#5bbad5'
       },
+      {
+        rel: 'preload',
+        href: '/fonts/Quicksand/fontface/Quicksand-Regular.woff2',
+        as: 'font'
+      },
+      {
+        rel: 'preload',
+        href: '/fonts/Raleway/fontface/Raleway-Regular.woff2',
+        as: 'font'
+      }
     ]
   },
 

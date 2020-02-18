@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Quicksand';
-  src: url('/fonts/Quicksand/fontface/Quicksand-Regular.woff2') format('woff2'),
+  src: local('Quicksand'),
+    url('/fonts/Quicksand/fontface/Quicksand-Regular.woff2') format('woff2'),
     url('/fonts/Quicksand/fontface/Quicksand-Regular.woff') format('woff'),
     url('/fonts/Quicksand/fontface/Quicksand-Regular.ttf') format('truetype');
   font-weight: normal;
@@ -10,7 +11,8 @@
 
 @font-face {
   font-family: 'Quicksand';
-  src: url('/fonts/Quicksand/fontface/Quicksand-Medium.woff2') format('woff2'),
+  src: local('Quicksand'),
+    url('/fonts/Quicksand/fontface/Quicksand-Medium.woff2') format('woff2'),
     url('/fonts/Quicksand/fontface/Quicksand-Medium.woff') format('woff'),
     url('/fonts/Quicksand/fontface/Quicksand-Medium.ttf') format('truetype');
   font-weight: 500;
@@ -20,7 +22,8 @@
 
 @font-face {
   font-family: 'Raleway';
-  src: url('/fonts/Raleway/fontface/Raleway-Medium.woff2') format('woff2'),
+  src: local('Raleway'),
+    url('/fonts/Raleway/fontface/Raleway-Medium.woff2') format('woff2'),
     url('/fonts/Raleway/fontface/Raleway-Medium.woff') format('woff'),
     url('/fonts/Raleway/fontface/Raleway-Medium.ttf') format('truetype');
   font-weight: 500;
@@ -30,7 +33,8 @@
 
 @font-face {
   font-family: 'Raleway';
-  src: url('/fonts/Raleway/fontface/Raleway-Light.woff2') format('woff2'),
+  src: local('Raleway'),
+    url('/fonts/Raleway/fontface/Raleway-Light.woff2') format('woff2'),
     url('/fonts/Raleway/fontface/Raleway-Light.woff') format('woff'),
     url('/fonts/Raleway/fontface/Raleway-Light.ttf') format('truetype');
   font-weight: 300;
@@ -40,7 +44,8 @@
 
 @font-face {
   font-family: 'Raleway';
-  src: url('/fonts/Raleway/fontface/Raleway-Regular.woff2') format('woff2'),
+  src: local('Raleway'),
+    url('/fonts/Raleway/fontface/Raleway-Regular.woff2') format('woff2'),
     url('/fonts/Raleway/fontface/Raleway-Regular.woff') format('woff'),
     url('/fonts/Raleway/fontface/Raleway-Regular.ttf') format('truetype');
   font-weight: normal;
