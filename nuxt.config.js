@@ -152,12 +152,16 @@ export default {
       {
         rel: 'preload',
         href: '/fonts/Quicksand/fontface/Quicksand-Regular.woff2',
-        as: 'font'
+        as: 'font',
+        type: 'font/woff2',
+        crossorigin: ''
       },
       {
         rel: 'preload',
         href: '/fonts/Raleway/fontface/Raleway-Regular.woff2',
-        as: 'font'
+        as: 'font',
+        type: 'font/woff2',
+        crossorigin: ''
       }
     ]
   },
