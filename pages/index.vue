@@ -7,7 +7,7 @@
       </p>
       <ul>
         <li>
-          Currently I'm the lead front end developer at <a href="//actoviacmi.com" target="_blank"
+          Currently I'm the lead full stack developer at <a href="//actoviacmi.com" target="_blank"
             rel="noopener">Actovia</a>.
         </li>
         <li>
