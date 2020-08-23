@@ -20,12 +20,13 @@
         "url": "https://gpafor.me",
         "alt": "Link to GPA Calculator"
     },
-    "timeframe": "Apr 2016",
-    "position": "Developer",
+    "timeframe": "Apr 2016, 2020",
+    "position": "Creator",
     "bullets": [
-      "To explore AngularJS, I created a GPA Calculator using Angular2.",
+      "Released new version in 2020 using VueJS with an authentication service and serverless database to store information for users.",
+      "Old Version: To explore AngularJS, I created a GPA Calculator using Angular2.",
       "It calculates GPA in real time with both semester and cumulative GPA scores. Users can choose from the three different GPA scales as well.",
-      "Every season during the end of the semester, there are over 2,000 students that use this to calculate their GPA and hope for the best."
+      "Every season during the end of the semester, there are over 5,000 students that use this to calculate their GPA and hope for the best."
     ]
   },
   "sniper": {
