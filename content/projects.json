@@ -1,17 +1,17 @@
 {
   "bbzl": {
-    "name": "Bamboozle",
+    "name": "ONUW.io",
     "link": {
-        "url": "https://bbzl.io",
-        "alt": "Link to Bamboozle"
+        "url": "https://onuw.io",
+        "alt": "Link to ONUW"
     },
     "timeframe": "Dec 2018 - Present",
     "position": "Creator",
     "bullets": [
-      "Bamboozle is an online multiplayer game based on a board game.",
+      "ONUW is an online multiplayer game based on a board game.",
       "Used Node.js running Express.js for views and routing with Socket.io for real time interaction.",
       "Running on a DO Ubuntu droplet with Nginx as reverse proxy and PM2 for management.",
-      "As of 2020, there are around 100 players around the world playing daily."
+      "As of 2022, there are around 200 players around the world playing daily."
     ]
   },
   "gpa": {
@@ -23,7 +23,7 @@
     "timeframe": "Apr 2016, 2020",
     "position": "Creator",
     "bullets": [
-      "Released new version in 2020 using VueJS with an authentication service and serverless database to store information for users.",
+      "Created using Vue.js + Nuxt.js with Auth0 authentication and serverless deployment with a serverless MongoDB database to store user information.",
       "Old Version: To explore AngularJS, I created a GPA Calculator using Angular2.",
       "It calculates GPA in real time with both semester and cumulative GPA scores. Users can choose from the three different GPA scales as well.",
       "Every season during the end of the semester, there are over 5,000 students that use this to calculate their GPA and hope for the best."

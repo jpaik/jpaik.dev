@@ -4,23 +4,23 @@
       "HTML5",
       "SCSS",
       "JavaScript",
-      "Vue.js",
-      "Angular"
+      "Typescript",
+      "Vue.js"
     ]
   },
   "2": {
     "list": [
       "Node.js",
       "Nuxt.js",
-      "C#/ASP.NET",
+      "C#/.NET Core",
       "PHP/Laravel",
       "Python/Flask"
     ]
   },
   "3": {
     "list": [
-      "VS Code",
-      "Git",
+      "Cypress",
+      "GitOps",
       "Jira",
       "Linux/Ubuntu",
       "Nginx/Apache"

@@ -58,7 +58,7 @@
           </a>
         </nav>
         <nav>
-          <a href="mailto:james@jpaik.me" target="_blank" rel="noopener">
+          <a href="mailto:james@jpaik.dev" target="_blank" rel="noopener">
             <img src="/envelope-square-solid.svg" class="large" alt="Email Icon" />
             <br />
             Email

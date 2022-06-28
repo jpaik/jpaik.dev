@@ -8,9 +8,9 @@
         "timeframe": "Aug 2016 - Present",
         "position": "Lead Front End Developer",
         "bullets": [
-            "Lead the UI/UX redesign and development of the Actovia Application. Currently maintaining and developing new features for the application.",
-            "Developed and now improving an internal custom CRM to work specifically with the Actovia Application.",
-            "Working closely with Backend and SQL developers using JIRA and pushed for Agile methods.",
+            "Led the UI/UX redesign and development of Actovia's applications. Currently maintaining and developing new features for the applications.",
+            "Developed and maintained an internal custom CRM to work specifically with the Actovia Application.",
+            "Worked closely with backend and database engineers while using JIRA and pushed for Agile methods.",
             "Streamlined workflow with Task Runners (Gulp & Webpack), SCSS, Babel and new ES JS standards with documentation for the team."
         ]
     },
@@ -20,9 +20,9 @@
         "position": "Co-Founder & Technical Lead",
         "bullets": [
             "Lead the development of Trade Trendy to revolutionize the online clothing market. Trade Trendy was an online marketplace to trade used clothing, shoes, and accessories.",
-            "Developed the application using Ruby on Rails framework with Bootstrap on the front end.",
-            "Produced a scalable architecture for expanding the business as user base grew using AWS.",
-            "Conducted weekly sprint goals with another developer to meet deadlines."
+            "Developed the web application using Ruby on Rails for the backend with jQuery and Bootstrap for the frontend.",
+            "Produced a scalable architecture as the user base grew from tens to thousands of concurrent users using AWS EC2 auto scaling groups and ELB.",
+            "Conducted weekly sprint goals to meet our feature log with consultant developers."
         ]
     },
     "zinnia": {
@@ -31,8 +31,8 @@
         "position": "Founder & Lead Developer",
         "bullets": [
             "Incorporated Zinnia Development LLC for my hobby on creating websites for small businesses officially in 2019.",
-            "Started developing websites for businesses in 2014.",
-            "Designed and developed over two dozen small business websites since ineption."
+            "Designed and developed over 30 small business websites and web applications since inception, working directly with small business owners.",
+            "Lowered hosting costs and downtime for small businesses by over 90% from their previous setup by utilizing serverless and cloud computing solutions and ensured reliability for these websites."
         ]
     }
 }
