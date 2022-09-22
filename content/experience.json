@@ -1,17 +1,58 @@
 {
+    "klaviyo": {
+        "name": "Klaviyo",
+        "timeframe": "Sep 2022 - Present",
+        "position": "Senior Software Engineer",
+        "link": {
+            "url": "//klaviyo.com",
+            "alt": "Link to Klaviyo"
+        },
+        "bullets": [
+            "Joining the Flows automation team as a senior software engineer."
+        ]
+    },
     "actovia": {
         "name": "Actovia",
         "link": {
             "url": "//actoviacmi.com",
             "alt": "Link to Actovia"
         },
-        "timeframe": "Aug 2016 - Present",
-        "position": "Lead Front End Developer",
+        "timeframe": "2016 - 2022",
+        "positions": [
+            {
+                "position": "Lead Full Stack Developer",
+                "timeframe": "Jan 2020 - Sep 2022",
+                "bullets": [
+                    "Collaborated and led a team of four engineers at Actovia while coordinating with the company’s leaders to implement and execute new ideas.",
+                    "Developed full stack applications using Vue.js/Nuxt.js with Typescript for frontend and .NET Core with C# and Node.js with Typescript for backend. Used SQL Server and PostgreSQL for databases.",
+                    "Worked closely with the marketing team to create a demo version of the web application with dynamic SEO and dynamic sitemaps for property searches with automated sign up subscriptions to create a new acquisition workflow.",
+                    "Implemented CI/CD practices using Gitlab CI/CD and Github Actions to deploy dockerized applications to GCP and DO."
+                ]
+            },
+            {
+                "position": "Lead Front End Developer",
+                "timeframe": "Aug 2016 - Dec 2019",
+                "bullets": [
+                    "Led the UI/UX redesign and development of Actovia's applications. Designed and developed the applications using HTML5, SCSS, Javascript, jQuery and Vue.js with the .NET Framework, ultimately increasing acquisition and retention rates by 150%",
+                    "Implemented E2E testing with Cypress and integrated with Jira which led to a significant decrease of bug fix requests from users.",
+                    "Developed and maintained an internal custom CRM to work specifically with the Actovia Application.",
+                    "Streamlined workflow with Task Runners (Gulp & Webpack), SCSS, Babel and new ES JS standards with documentation for the team."
+                ]
+            }
+        ]
+    },
+    "zinnia": {
+        "name": "Zinnia Development",
+        "timeframe": "Jul 2014 - Present",
+        "position": "Founder & Lead Developer",
+        "link": {
+            "url": "//zinnia.dev",
+            "alt": "Link to Zinnia Development"
+        },
         "bullets": [
-            "Led the UI/UX redesign and development of Actovia's applications. Currently maintaining and developing new features for the applications.",
-            "Developed and maintained an internal custom CRM to work specifically with the Actovia Application.",
-            "Worked closely with backend and database engineers while using JIRA and pushed for Agile methods.",
-            "Streamlined workflow with Task Runners (Gulp & Webpack), SCSS, Babel and new ES JS standards with documentation for the team."
+            "Incorporated Zinnia Development LLC for my hobby on creating websites for small businesses officially in 2019.",
+            "Designed and developed over 30 small business websites and web applications since inception, working directly with small business owners.",
+            "Lowered hosting costs and downtime for small businesses by over 90% from their previous setup by utilizing serverless and cloud computing solutions and ensured reliability for these websites."
         ]
     },
     "tradetrendy": {
@@ -23,16 +64,6 @@
             "Developed the web application using Ruby on Rails for the backend with jQuery and Bootstrap for the frontend.",
             "Produced a scalable architecture as the user base grew from tens to thousands of concurrent users using AWS EC2 auto scaling groups and ELB.",
             "Conducted weekly sprint goals to meet our feature log with consultant developers."
-        ]
-    },
-    "zinnia": {
-        "name": "Zinnia Development",
-        "timeframe": "Jul 2014 - Present",
-        "position": "Founder & Lead Developer",
-        "bullets": [
-            "Incorporated Zinnia Development LLC for my hobby on creating websites for small businesses officially in 2019.",
-            "Designed and developed over 30 small business websites and web applications since inception, working directly with small business owners.",
-            "Lowered hosting costs and downtime for small businesses by over 90% from their previous setup by utilizing serverless and cloud computing solutions and ensured reliability for these websites."
         ]
     }
 }

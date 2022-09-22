@@ -7,8 +7,8 @@
       </p>
       <ul>
         <li>
-          Currently I'm the lead full stack developer at <a href="//actoviacmi.com" target="_blank"
-            rel="noopener">Actovia</a>.
+          Currently I'm a Senior Software Engineer at <a href="//klaviyo.com" target="_blank"
+            rel="noopener">Klaviyo</a>.
         </li>
         <li>
           On the side, I run a web development business, <a href="//zinnia.dev" target="_blank" rel="noopener">Zinnia
