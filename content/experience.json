@@ -1,16 +1,4 @@
 {
-    "klaviyo": {
-        "name": "Klaviyo",
-        "timeframe": "Sep 2022 - Present",
-        "position": "Senior Software Engineer",
-        "link": {
-            "url": "//klaviyo.com",
-            "alt": "Link to Klaviyo"
-        },
-        "bullets": [
-            "Joining the Flows automation team as a senior software engineer."
-        ]
-    },
     "actovia": {
         "name": "Actovia",
         "link": {
@@ -23,7 +11,7 @@
                 "position": "Lead Full Stack Developer",
                 "timeframe": "Jan 2020 - Sep 2022",
                 "bullets": [
-                    "Collaborated and led a team of four engineers at Actovia while coordinating with the company’s leaders to implement and execute new ideas.",
+                    "Collaborated and led a team of engineers at Actovia while coordinating with the company’s leaders to implement and execute new ideas.",
                     "Developed full stack applications using Vue.js/Nuxt.js with Typescript for frontend and .NET Core with C# and Node.js with Typescript for backend. Used SQL Server and PostgreSQL for databases.",
                     "Worked closely with the marketing team to create a demo version of the web application with dynamic SEO and dynamic sitemaps for property searches with automated sign up subscriptions to create a new acquisition workflow.",
                     "Implemented CI/CD practices using Gitlab CI/CD and Github Actions to deploy dockerized applications to GCP and DO."
