@@ -182,6 +182,10 @@ section {
   >p {
     margin: .25em 0;
   }
+
+  >div:not(:last-of-type) ul {
+    margin-bottom: 0;
+  }
 }
 
 hgroup { 
@@ -194,7 +198,11 @@ hgroup {
     margin: 0;
   }
 
-  h3 {
+  >p {
+    margin: .25em 0;
+  }
+
+  h3, p:not(:last-child) {
     flex-wrap: nowrap;
     flex: 1;
     display: flex;
@@ -214,7 +222,7 @@ hgroup {
     }
   }
 
-  h4 {    
+  h4, p:last-child {    
     flex: initial;
     display: inline-block;
     font-size: .9em;

@@ -10,19 +10,39 @@
         <h4>{{data.timeframe}}</h4>
       </hgroup>
       
-      <p>
-        {{data.position}}
-      </p>
-      <ul>
-        <li v-for="point in data.bullets" :key="point">
-            {{point}}
-        </li>
-      </ul>
+      <template v-if="data.positions">
+        <div v-for="p in data.positions" :key="p.position">
+          <hgroup>
+            <p>{{p.position}}</p>
+            <h4>{{p.timeframe}}</h4>
+          </hgroup>
+          <ul>
+            <li v-for="point in p.bullets" :key="point">
+                {{point}}
+            </li>
+          </ul>
+        </div>
+      </template>
+      <template v-else>
+        <p>
+          {{data.position}}
+        </p>
+        <ul>
+          <li v-for="point in data.bullets" :key="point">
+              {{point}}
+          </li>
+        </ul>
+      </template>
     </section>
 </template>
 
 <script>
 export default {
-    props: ['data']
+    props: ['data'],
+    computed: {
+      hasMultiple() {
+        return this.data.positions !== undefined;
+      }
+    }
 }
 </script>
