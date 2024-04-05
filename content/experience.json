@@ -1,4 +1,24 @@
 {
+    "klaviyo": {
+        "name": "Klaviyo",
+        "link": {
+            "url": "//klaviyo.com",
+            "alt": "Link to Klaviyo"
+        },
+        "timeframe": "2022 - Present",
+        "positions": [
+            {
+                "position": "Lead Software Engineer",
+                "timeframe": "Mar 2024 - Present",
+                "bullets": []
+            },
+            {
+                "position": "Senior Software Engineer",
+                "timeframe": "Sep 2022 - Mar 2024",
+                "bullets": []
+            }
+        ]
+    },
     "actovia": {
         "name": "Actovia",
         "link": {

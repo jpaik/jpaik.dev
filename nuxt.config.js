@@ -1,5 +1,5 @@
-const site_title = 'James Paik | Full Stack Developer & Entrepreneur';
-const site_description = 'Currently the Lead Front End Developer at Actovia. Full Stack Developer by trade.';
+const site_title = 'James Paik | Software Engineer & Entrepreneur';
+const site_description = 'Currently a Lead Software Engineer at Klaviyo.';
 const site_url = 'https://jpaik.me';
 const site_keywords = 'James Paik, front end developer, full stack developer, New Jersey, Web Developer, frontend developer, lead developer, senior developer, software developer';
 

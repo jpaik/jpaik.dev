@@ -1,20 +1,20 @@
 {
   "1": {
     "list": [
-      "HTML5",
-      "SCSS",
+      "HTML5/SCSS",
       "JavaScript",
       "Typescript",
+      "React",
       "Vue.js"
     ]
   },
   "2": {
     "list": [
+      "Python/Django",
       "Node.js",
       "Nuxt.js",
       "C#/.NET Core",
-      "PHP/Laravel",
-      "Python/Flask"
+      "PHP/Laravel"
     ]
   },
   "3": {
@@ -23,7 +23,7 @@
       "GitOps",
       "Jira",
       "Linux/Ubuntu",
-      "Nginx/Apache"
+      "AWS"
     ]
   }
 }

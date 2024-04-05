@@ -7,7 +7,7 @@
       </p>
       <ul>
         <li>
-          Currently I'm a Senior Software Engineer at <a href="//klaviyo.com" target="_blank"
+          Currently I'm a Lead Software Engineer at <a href="//klaviyo.com" target="_blank"
             rel="noopener">Klaviyo</a>.
         </li>
         <li>
